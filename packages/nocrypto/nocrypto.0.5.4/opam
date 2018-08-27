@@ -1,0 +1,61 @@
+opam-version: "2.0"
+version: "0.5.4"
+maintainer: "David Kaloper <david@numm.org>"
+authors: "David Kaloper <david@numm.org>"
+license: "ISC"
+tags: "org:mirage"
+homepage: "https://github.com/mirleft/ocaml-nocrypto"
+doc: "https://mirleft.github.io/ocaml-nocrypto/doc"
+bug-reports: "https://github.com/mirleft/ocaml-nocrypto/issues"
+depends: [
+  "ocaml" {>= "4.02.0"}
+  "ocamlfind" {build}
+  "ocamlbuild" {build}
+  "topkg" {build}
+  "cpuid" {build}
+  "ocb-stubblr" {build}
+  "ppx_deriving" {build}
+  "ppx_sexp_conv"
+  "ounit" {with-test}
+  "cstruct" {>= "3.0.0"}
+  "zarith"
+  "sexplib"
+  "ocplib-endian"
+  "mirage-no-xen" | ("mirage-xen" & "zarith-xen" & "mirage-entropy")
+  "mirage-no-solo5" |
+  ("mirage-solo5" & "zarith-freestanding" & "mirage-entropy")
+]
+depopts: ["cstruct-lwt" "lwt"]
+conflicts: [
+  "topkg" {< "0.9.1"}
+  "ocb-stubblr" {< "0.1.0"}
+  "mirage-xen" {< "2.2.0"}
+  "sexplib" {= "v0.9.0"}
+  "ppx_sexp_conv" {= "v0.11.0"}
+]
+build: [
+  [
+    "ocaml"
+    "pkg/pkg.ml"
+    "build"
+    "--pinned"
+    "%{pinned}%"
+    "--tests"
+    "false"
+    "--with-lwt"
+    "%{lwt+cstruct-lwt:installed}%"
+    "--xen"
+    "%{mirage-xen:installed}%"
+    "--mirage"
+    "%{mirage-entropy+lwt:installed}%"
+    "--freestanding"
+    "%{mirage-solo5:installed}%"
+  ]
+  ["ocaml" "pkg/pkg.ml" "build" "--pinned" "%{pinned}%" "--tests" "true"]
+    {with-test}
+  ["ocaml" "pkg/pkg.ml" "test"] {with-test}
+]
+dev-repo: "git+https://github.com/mirleft/ocaml-nocrypto.git"
+url {
+  src: "git+https://github.com/hannesm/ocaml-nocrypto.git#9eba82d05e6705cba2c9104aada1638ab0da9c79"
+}
