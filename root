@@ -1,0 +1,55 @@
+signed: [
+  [version 1]
+  [valid jackline-root-hannes]
+  [typ root]
+  [
+    roles
+    [
+      [
+        janitor
+        [
+          jackline-hannes
+          "sha256=7a104f85ff6e2fb9f1853a2f3cbed09865c964a585eca4818ab3e33b833d5f74"
+          0x0
+        ]
+      ]
+    ]
+  ]
+  [name "root"]
+  [
+    keys
+    [
+      [
+        jackline-root-hannes
+        "2018-08-27T22:09:25Z"
+        """
+rsa=-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA68l/FSZm/cLmiod7FCOH
+kAn3rgPoNeOVXfTELn6NipxYJySWkfoaof+6wMP1JavrSSEn1f8rhXiRmlSprVvR
+St34JmI4xQGEpoKJ59OAuA+POFhFIMeZBjT4lKxzfYzVPIhjnj85uR7A9x8d5QVJ
+gbRZle01GzLc7tuTAFsEn4Xl4OpHmM0jI9UF0gkU2AQZTESWxs+SkfBo9H66y6TX
+hh2pcKUDFstBV4VZ5VKfCkt7z9Lhk2U1HwZnCMb9CjvSBbXp1axma64XhHn9nw9o
+BX41uloIPPodu3HNMaS6bTzsCm7Pf18gzu8piXbDzCN5rH4OfK6r7JQeWgYSyJff
+Le4Tq0W5pVQpglY+95EABRfRYpVJQQ7Nq+Ay8exr8PeLAtDe9EPDywjzB7FmJuFx
+PVh5gr33NWkqEZnxBEGB2BXl26cgm3XpLKo7jyR5H3doQLvo2qGe68L/P1/GHDOF
+plIxuP6Zf4MSibaa1EE4+uRHZobo1bKiS6+HilGKivfsnjDKElk5GN9lWViAHjYH
+swOAGkLx8RCwdzo3smtAQUKPDRRrRqZ4O07+Mi7xNMPlrBoUe1RXPX1Blg3/MxPy
+QtoGyxu3OoTldjCdbu5kXK3Em9Ho7PhnvnUrFls9cfXlr8L/YWnlj+qk5Z0GHVvx
+V3LfspIds9s3mqOw1GpS3XcCAwEAAQ==
+-----END PUBLIC KEY-----"""
+      ]
+    ]
+  ]
+  [keydir "keys"]
+  [epoch 0x0]
+  [datadir "packages"]
+  [created "2018-08-27T22:09:53-00:00"]
+  [counter 0x0]
+]
+signatures: [
+  [
+    jackline-root-hannes
+    "2018-08-27T22:15:15-00:00"
+    "rsapss-sha256=eCQMnnyaN8WD5/EMwvKP+mKRLQgAM2/WL8q4ieFg8z5cP7VHTR33OBh6df8jXsgg5kQj2TYcQFbL0he9taV1qOMthFnSaCHldZRujW2dZnszlT1JzcaljCnyBubelomq2jI2h/cbavrv8CCMWbQW1O8xfT7EkOgNbaom+ed8TNxgmcM8lS4m91GkQj7y4g/NeZKecq7cynkYUATOxzOS/4WX4NcE7STI4n4ZatvHpXk1vGZ6savqnkDlocnpabrCG7Bd3mLLqEyXchuWnrhV7vqKMnJOqTh8nMhlaoAb4kzZKmyWWrp7XSsojxC5M8eLFFquYRk7o3ApQfp6sWwt/BAlGFqy+2QeUls9KPxLj9ZPuAcYk8VOveHfrOpsTcYCFeP7uVsGBQSRE9y8GN9XO2vcmeQ3O7HIHaBNfJ7PQLj3k6blIjkVJ3HSbLr5ln4IG/GZHA4JmVlbNQMprwRjKBQDBYY6mpljZtwVzYPWS7ISMmGTRID7L0afatItbsn76kWxsIC/+xrH3S7O0RDGJV8Vh/Pf8wi6su/U588Y1O5tWnMJJzI8qjnRKimUMxO9lEfja/LCLgLN5h4pMpYc25WjVWTzDAH60Kc6dNqs9xS6aYJwtnpEbTRAm3YNFiWvKBSXAArYBqrDJ1RHjYZlC3rkLddQ3Fg0tazqZ/DpO0Q="
+  ]
+]
