@@ -38,10 +38,5 @@ build: [
 ]
 dev-repo: "git+https://github.com/pqwy/ocb-stubblr.git"
 url {
-  src:
-    "https://github.com/pqwy/ocb-stubblr/releases/download/v0.1.1/ocb-stubblr-0.1.1.tbz"
-  checksum: [
-    "md5=607720dd18ca51e40645b42df5c1273e"
-    "sha256=4e9c4fd031e008a65f14a0f3bf6914fa6632ab054aad8670dcb30621433feb98"
-  ]
+  src: "git+https://github.com/hannesm/ocb-stubblr.git#00a03bcf37a1e14169beeb28c7544620320785d1"
 }
