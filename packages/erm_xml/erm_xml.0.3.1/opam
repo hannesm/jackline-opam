@@ -13,9 +13,9 @@ flags: light-uninstall
 build: [
   ["ocaml" "setup.ml" "-configure" "--prefix" prefix]
   ["ocaml" "setup.ml" "-build"]
-  ["ocaml" "setup.ml" "-install"]
   ["ocaml" "setup.ml" "-test"] {with-test}
 ]
+install:  ["ocaml" "setup.ml" "-install"]
 remove: ["ocamlfind" "remove" "erm_xml"]
 url {
   src: "git+https://github.com/hannesm/xml.git#bbabdade807d8281fc48806da054b70dfe482479"

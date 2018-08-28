@@ -16,9 +16,9 @@ flags: light-uninstall
 build: [
   ["ocaml" "setup.ml" "-configure" "--prefix" prefix]
   ["ocaml" "setup.ml" "-build"]
-  ["ocaml" "setup.ml" "-install"]
   ["ocaml" "setup.ml" "-test"] {with-test}
 ]
+install:  ["ocaml" "setup.ml" "-install"]
 remove: ["ocamlfind" "remove" "erm_xmpp"]
 url {
   src: "git+https://github.com/hannesm/xmpp.git#184dc70fab7d46d09b9148ca4448f07f1e0a2df2"
