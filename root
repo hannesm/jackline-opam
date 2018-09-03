@@ -6,7 +6,7 @@ signed: [
     roles
     [
       [
-        janitor
+        maintainer
         [
           jackline-hannes
           "sha256=7a104f85ff6e2fb9f1853a2f3cbed09865c964a585eca4818ab3e33b833d5f74"
@@ -44,12 +44,12 @@ V3LfspIds9s3mqOw1GpS3XcCAwEAAQ==
   [epoch 0x0]
   [datadir "packages"]
   [created "2018-08-27T22:09:53-00:00"]
-  [counter 0x0]
+  [counter 0x1]
 ]
 signatures: [
   [
     jackline-root-hannes
-    "2018-08-27T22:15:15-00:00"
-    "rsapss-sha256=eCQMnnyaN8WD5/EMwvKP+mKRLQgAM2/WL8q4ieFg8z5cP7VHTR33OBh6df8jXsgg5kQj2TYcQFbL0he9taV1qOMthFnSaCHldZRujW2dZnszlT1JzcaljCnyBubelomq2jI2h/cbavrv8CCMWbQW1O8xfT7EkOgNbaom+ed8TNxgmcM8lS4m91GkQj7y4g/NeZKecq7cynkYUATOxzOS/4WX4NcE7STI4n4ZatvHpXk1vGZ6savqnkDlocnpabrCG7Bd3mLLqEyXchuWnrhV7vqKMnJOqTh8nMhlaoAb4kzZKmyWWrp7XSsojxC5M8eLFFquYRk7o3ApQfp6sWwt/BAlGFqy+2QeUls9KPxLj9ZPuAcYk8VOveHfrOpsTcYCFeP7uVsGBQSRE9y8GN9XO2vcmeQ3O7HIHaBNfJ7PQLj3k6blIjkVJ3HSbLr5ln4IG/GZHA4JmVlbNQMprwRjKBQDBYY6mpljZtwVzYPWS7ISMmGTRID7L0afatItbsn76kWxsIC/+xrH3S7O0RDGJV8Vh/Pf8wi6su/U588Y1O5tWnMJJzI8qjnRKimUMxO9lEfja/LCLgLN5h4pMpYc25WjVWTzDAH60Kc6dNqs9xS6aYJwtnpEbTRAm3YNFiWvKBSXAArYBqrDJ1RHjYZlC3rkLddQ3Fg0tazqZ/DpO0Q="
+    "2018-09-03T16:03:10-00:00"
+    "rsapss-sha256=uDYNgGx5rL9xJxk1nSy10G+yympNWTAkEIRbCSzfe41SiSGeoFwQBONuTQfJoroLNRS8g04bnLHIQQWXGaK9uG5GIPfCWcvbkQgqHEviITqg0MKeOEqNtTkDrnICRtW2xEqej8HeLtEuUmm0D7ZyLJ0LNch5rEMUsdCEq2WOxXBmyDR4PyMO+3lsL86OAbEtDPeY7FV0BY7SioeBj8kgU5GIRUCAYLJVYb9mNQ6AjsLLBFEop/pAIMjMPEoxR1vcbShk822tG3Vq8ErkMQziIB2wrdfyvE8Q5dlyR04JPRvcPqy+/ddldmEadpsXz2qpgB+29uwM5bh57pdFRrK4oh+lyMvpAku4zSZo58lZtYUOw3VgKj7PjbKv9YNNtEop3Uhs7oh8nEaITEetzG7hYFULE9mp/RMA1Ho3HmMse2FsH/P8Rt56NrMxfIy1PCJOMx4fJtPfqBFxaqQuiB6OCHi16Gyimh4L8q1jer9vSOBljymJDfX2zGaVGU/L1ABDKzUXd+9Z8s0ilZbqVj7B3ldp53tgxooIgPF2D7EICX4iyzgjSOCp2d5a0eWG/grrx4sNJIObU0xKh8p4eEJGOx/akBYOQDgxHCB2uA766h6A3ovGqfk/TD5ABZreRU+wfWFpfhHHry4r3k42KTlSrauD9w7LKuqHfKXKpSVImhQ="
   ]
 ]
