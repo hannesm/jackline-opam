@@ -1,0 +1,22 @@
+opam-version: "2.0"
+synopsis: "XML stream parser"
+maintainer: "ygrek@autistici.org"
+license: "BSD3"
+homepage: "https://github.com/ermine/xml"
+depends: [
+  "ocaml"
+  "ocamlfind" {build}
+  "ocamlbuild" {build}
+]
+flags: light-uninstall
+build: [
+  ["ocaml" "setup.ml" "-configure" "--prefix" prefix]
+  ["ocaml" "setup.ml" "-build"]
+  ["ocaml" "setup.ml" "-test"] {with-test}
+]
+install: ["ocaml" "setup.ml" "-install"]
+remove: ["ocamlfind" "remove" "erm_xml"]
+url {
+  src:
+    "git+https://github.com/hannesm/xml.git#bbabdade807d8281fc48806da054b70dfe482479"
+}
