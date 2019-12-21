@@ -24,7 +24,7 @@ $ opam repo add hannes-jackline-repo https://github.com/hannesm/jackline-opam.gi
 For a full setup:
 
 ```bash
-# get opam 2.0.0 and conex via second channel
+# get opam >= 2.0.0 and conex >= 0.11.0, e.g. opam via your package manager and conex via opam install conex
 $ opam switch create --empty jackline
 $ opam repo add jackline-opam git+https://github.com/hannesm/jackline-opam.git 1 sha256=6b70cd24656868f22bba1ac574f4166093fa640850ccd81852915a64b6999e08
 $ opam repo remove default
