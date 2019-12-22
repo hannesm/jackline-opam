@@ -24,7 +24,7 @@ license: "BSD2"
 homepage: "https://github.com/hannesm/jackline"
 bug-reports: "https://github.com/hannesm/jackline/issues"
 depends: [
-  "ocaml" {>= "4.05.0"}
+  "ocaml" {>= "4.07.0"}
   "ocamlfind" {build}
   "ocamlbuild" {build}
   "ppx_sexp_conv" {build}
@@ -38,6 +38,7 @@ depends: [
   "otr" {>= "0.2.1"}
   "astring"
   "ptime" {>= "0.8.0"}
+  "mtime"
   "notty" {>= "0.2.2"}
   "sexplib"
   "hex"
@@ -46,6 +47,7 @@ depends: [
   "uucp" {>= "2.0.0"}
   "uuseg" {>= "1.0.0"}
   "uutf" {>= "1.0.0"}
+  "dns-client" {>= "4.2.0"}
 ]
 build: [
   ["ocaml" "pkg/pkg.ml" "build" "--pinned" "true"] {os != "openbsd"}
@@ -54,5 +56,5 @@ build: [
 dev-repo: "git+https://github.com/hannesm/jackline.git"
 url {
   src:
-    "git+https://github.com/hannesm/jackline.git#fd37663baa622e0bd634f57966e2e19055c79dcd"
+    "git+https://github.com/hannesm/jackline.git#5683f587cca9b7aa686b2e82a2126a2e8f50887f"
 }
