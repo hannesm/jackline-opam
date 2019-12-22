@@ -659,16 +659,6 @@ signed: [
         ]
       ]
       [
-        [size 0x854]
-        [filename "jackline.0.1.0/opam"]
-        [
-          digest
-          [
-            "sha256=afd335655c4a088da380d47a59d751d9c8a41096bd5a27b53c0a1d29267cc537"
-          ]
-        ]
-      ]
-      [
         [size 0x5D6]
         [filename "uutf.1.0.2/opam"]
         [
@@ -908,6 +898,176 @@ signed: [
           ]
         ]
       ]
+      [
+        [size 0x47A]
+        [filename "dns-client.4.2.0/opam"]
+        [
+          digest
+          [
+            "sha256=a8b13754c530f731745840be67468b4b0c6e5fcfb58cdeb4c18f6489fae073f9"
+          ]
+        ]
+      ]
+      [
+        [size 0x788]
+        [filename "dns.4.2.0/opam"]
+        [
+          digest
+          [
+            "sha256=6d9e2c35cd0de01b73f0337907acdd84f6d9beac8f0d049a6b359094a0b6dfcd"
+          ]
+        ]
+      ]
+      [
+        [size 0x489]
+        [filename "duration.0.1.3/opam"]
+        [
+          digest
+          [
+            "sha256=67260f0e8823d7fd0ad987d3101a4bade6295f4564a8b50628ba5354aa0866ea"
+          ]
+        ]
+      ]
+      [
+        [size 0x83E]
+        [filename "ipaddr.4.0.0/opam"]
+        [
+          digest
+          [
+            "sha256=a3b7d007dbc9de4a571b548991dcbfa54d15e3f741cf70b8083230f460e4290a"
+          ]
+        ]
+      ]
+      [
+        [size 0x87A]
+        [filename "jackline.0.1.0/opam"]
+        [
+          digest
+          [
+            "sha256=d1a5f6656d59e5aad91ce69b0e585cc6378d36a898cafab78ff7b7f39ae55a00"
+          ]
+        ]
+      ]
+      [
+        [size 0x86A]
+        [filename "logs.0.7.0/opam"]
+        [
+          digest
+          [
+            "sha256=b7ee0bc7c3d7b4a50459168bc9c4229490635a23f45675d18085e0a42dfcc28d"
+          ]
+        ]
+      ]
+      [
+        [size 0x3FB]
+        [filename "lru.0.3.0/opam"]
+        [
+          digest
+          [
+            "sha256=acd555d7d2a494e66b2a1f3943c9b22181460fa24b9efa2378f76b5d867c468b"
+          ]
+        ]
+      ]
+      [
+        [size 0x564]
+        [filename "macaddr.4.0.0/opam"]
+        [
+          digest
+          [
+            "sha256=2280e212fd63ed4eb01081f7161aa3605ea498a8def50316ffd7f4fcec9ece71"
+          ]
+        ]
+      ]
+      [
+        [size 0x4F3]
+        [filename "mirage-clock.3.0.1/opam"]
+        [
+          digest
+          [
+            "sha256=d63b78044730db295f980f6b9c072379a8ac2437776d3e04cdf7c63c9419cc15"
+          ]
+        ]
+      ]
+      [
+        [size 0x51C]
+        [filename "mirage-device.2.0.0/opam"]
+        [
+          digest
+          [
+            "sha256=c1d20c589e0dd8d9e6b8071438758c4002b23cfbe9a4dcd57454c1d8e25a2027"
+          ]
+        ]
+      ]
+      [
+        [size 0x467]
+        [filename "mirage-flow.2.0.1/opam"]
+        [
+          digest
+          [
+            "sha256=ac901ad8ea5c4c6a627441b2de72229041996488adfb9e81814d544aa22faa0d"
+          ]
+        ]
+      ]
+      [
+        [size 0x515]
+        [filename "mirage-protocols.4.0.1/opam"]
+        [
+          digest
+          [
+            "sha256=76b0772be382038f9c24422f754ab1cd8f3ff726ff58b3d800a8e63db5ac33fe"
+          ]
+        ]
+      ]
+      [
+        [size 0x4A6]
+        [filename "mirage-random.2.0.0/opam"]
+        [
+          digest
+          [
+            "sha256=34dd6714acf92a70b5e1c5cfd02388d124214c2e12f103068418cc6b1c699c42"
+          ]
+        ]
+      ]
+      [
+        [size 0x474]
+        [filename "mirage-stack.2.0.1/opam"]
+        [
+          digest
+          [
+            "sha256=310af5381e5a71afc0343386c2d2065928fc389322cc97d2812a6a141120256d"
+          ]
+        ]
+      ]
+      [
+        [size 0x60C]
+        [filename "mtime.1.2.0/opam"]
+        [
+          digest
+          [
+            "sha256=ff1f3514ab7ac5eeacdb4a8d876401d386db34b70e27c377b93f316e1a1357f6"
+          ]
+        ]
+      ]
+      [
+        [size 0x42C]
+        [filename "psq.0.2.0/opam"]
+        [
+          digest
+          [
+            "sha256=67f676ba02e8860a7288aaff4d678ac6435836bc2933e5d4bdfb85634e748b21"
+          ]
+        ]
+      ]
+      [
+        [size 0x3CB]
+        [filename "randomconv.0.1.2/opam"]
+        [
+          digest
+          [
+            "sha256=e0b7116f257bdc9687a24730a29b60760a595c84d45a2475c5b2e893093e4710"
+          ]
+        ]
+      ]
     ]
   ]
   [name "jackline-hannes"]
@@ -938,12 +1098,12 @@ gsXqqxmvveV8cUVG1bjMvtMCAwEAAQ==
   [epoch 0x0]
   [delegations []]
   [created "2018-08-27T22:16:48-00:00"]
-  [counter 0x2]
+  [counter 0x3]
 ]
 signatures: [
   [
     jackline-hannes
-    "2019-12-20T21:09:38-00:00"
-    "rsapss-sha256=zO9v+xBGVwputjKctr5XcMD62TdFmAsOhiner6tpSw63St9mBlX2bCDB/fsgo92H76VlEOT9OiW036gV7UCAdIiANZyO/4su/03RxYrPApW2Iopax+nS2SeBs4CHGOhfJtLFvPjbLLI4GBpi8B7/H3RZEQHO8O14kHY/30ny3Kek9l9s0wvB7muRCo+RVM/S9EICxdXXcOgNXtpXRT5J135gsYPm4BHuc0nw8otwxUJB+3yU6tBIvyIbsUW6uxlh9RVGfWBFu+drVNp3/C5woxuRQJe5pag53MTTq2TYgbRefqUC6zqaJKJddc0Z6dnGNiAQ3DuQkXc+EQldrFGeNJ+mc1J7SryDrQVFY10XZyHg3GefStiZ1eenvDRSlNBkFLgzBmMuDe4ZGFHuQdaAuGEvX2ZYcDCD1Q35I0D2v/sOFWjJs+m3B8r+w2jAniRq3dBuCw77uhn4GS6MMbjBAVmswF/PQxWNbRomrvo2IRG8nR2vgbLZoz4qErsb0jK89d2YbOuPcRFj9QfIuLvsALVhld9YbP70bQOJ/i9B8iKgHpJ1qVLNU/cLnJPnxHJhddtqNi1loa0AMcxVOi4O5QHu9pqO04ecmv1PMJGuY+y8x7ppiSx0ArDxVXJKr6xlOS7lnompSkHBZxm34I0XyQPLKZ1c56Jnz1bgfhDlyAM="
+    "2019-12-22T18:38:16-00:00"
+    "rsapss-sha256=muiCIPGO/u9gsqftcbC4WH8+zjFhETnXRZ8bw+UF2Ft7g4U7OMEGR3n1O1EKBSrQqrhcXuCKSdwV1Ho6BA4GxP2Xo4s9BMRwUlb9cEcjyx9SMJMQTRu+Z9LjGTDX1P4NPJ/8+L1UWlFVT4/BGhh6BceH3emFLYGU7RHdn18xiQ4DzbdHpU83yxDuJ+LTPCsqE1k+78WaP0EbacBazvwiwaCdzFmvAVkbQFnS0/C0Wbetd7RAswmaR++fdhwrrfU2YkNRJDbMZtBhhZSpewBltKDidv3AU3SZokURf9t5VqHQbdrsenJOtz7ZW3g6YQ8rhszv51NyPCMPaE8SIhqji9U60f4z/jPqcXw7HRx0Ki3k0br6P24x6CcunOrB3/0wZsP7l6ZgXRBF+mFF6JNrv0kqgugOdzIF3zGDXM5hOLXkVbsBLusNmTOZLrT+3di4caOhYmQelUQn60veoNoU8zLwyY3lC8v4lcKExBd6zYeEN6SO/rMVGI671p918hDjzU8yOaoR7h57ElaZV5O76No0RxwFHG803g3c9pCgs+ShH6TSexyNB4gfkKPJhKMpxNzCpONNuEyrFaTZn3xKcAEiepJSSzhXQo5ZrwYZILqbosNlMvZLxpoTQxKg2eeKhcET7O7NFD/hy7pXPTsFsvIn7mHw1aafFKzNUCmh0nU="
   ]
 ]
